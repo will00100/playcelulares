@@ -32,7 +32,7 @@ const Promotion: React.FC = () => {
   return (
     <section 
       ref={sectionRef}
-      className={`py-24 px-4 bg-cover bg-center text-center transition-all duration-1000 ease-in-out ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+      className={`py-24 px-4 bg-cover bg-center text-center transition-all duration-700 ease-out ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
       style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://picsum.photos/seed/campaign/1200/600')" }} // Placeholder for "campanha.jpg"
     >
       <div className="container mx-auto">

@@ -7,20 +7,21 @@ type IconProps = {
 
 export const PhoneCrackIcon: React.FC<IconProps> = (props) => (
   <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0l-1.5 3 3 3-1.5 3 3 3-1.5 3" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9l4.5 3L9.75 15" />
   </svg>
 );
 
 export const BatteryEmptyIcon: React.FC<IconProps> = (props) => (
   <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5v3M3.375 12h1.125" />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M18.375 18.375c-1.035 1.035-2.488 1.625-4.125 1.625s-3.09-.59-4.125-1.625m8.25 0c1.035-1.035 1.625-2.488 1.625-4.125s-.59-3.09-1.625-4.125m-8.25 0c-1.035 1.035-2.488 1.625-4.125 1.625S5.25 6.44 6.285 5.415m8.25 0c1.035-1.035 2.488-1.625 4.125-1.625S19.75 6.44 18.715 5.415" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21m-1.5 0h-15a2.25 2.25 0 01-2.25-2.25v-4.5a2.25 2.25 0 012.25-2.25h15a2.25 2.25 0 012.25 2.25v4.5a2.25 2.25 0 01-2.25 2.25z" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3m0 2v.01" />
   </svg>
 );
 
 export const WaterDropIcon: React.FC<IconProps> = (props) => (
   <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M12 2.25c-5.187 0-9.407 4.22-9.407 9.407 0 5.187 7.055 11.08 8.657 12.352a.938.938 0 001.5 0c1.602-1.272 8.657-7.165 8.657-12.352C21.407 6.47 17.187 2.25 12 2.25z" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 2.25c-5.185 0-9.405 4.21-9.405 9.405 0 5.195 7.065 11.095 8.665 12.365a.938.938 0 001.48 0c1.6-1.27 8.665-7.17 8.665-12.365 0-5.195-4.22-9.405-9.405-9.405z" />
   </svg>
 );
 

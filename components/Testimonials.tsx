@@ -67,7 +67,7 @@ const Testimonials: React.FC = () => {
   return (
     <section 
         ref={sectionRef}
-        className={`py-20 px-4 bg-gray-900 transition-all duration-1000 ease-in-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+        className={`py-20 px-4 bg-gray-900 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
     >
       <div className="container mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 font-orbitron">Nossos Clientes de <span className="text-blue-400">Uberaba Aprovam</span></h2>

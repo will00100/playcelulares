@@ -32,7 +32,7 @@ const Guarantee: React.FC = () => {
   return (
     <section 
         ref={sectionRef}
-        className={`py-20 px-4 bg-black transition-all duration-1000 ease-in-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+        className={`py-20 px-4 bg-black transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
     >
       <div className="container mx-auto max-w-5xl">
         <div className="bg-gray-900 rounded-lg p-8 md:p-12 border-2 border-green-500/50 shadow-[0_0_25px_rgba(34,197,94,0.3)] flex flex-col md:flex-row items-center gap-8">
